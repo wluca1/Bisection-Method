@@ -86,7 +86,7 @@ def criar_interface_grafica():
             for linha in resultado:
                 print(f"{int(linha[0]):9d} | {linha[1]:.4f} | {linha[2]:.4f} | {linha[3]:.4f} | {linha[4]:.4f} | {linha[5]:.4f}")
 
-            # Limpar a mensagem de erro, se houver
+            
             lbl_erro.config(text="", foreground="black")
 
         except ValueError as e:
